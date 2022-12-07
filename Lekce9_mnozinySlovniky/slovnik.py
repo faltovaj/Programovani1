@@ -6,7 +6,6 @@ predvolba = {
 }
 print(predvolba[1][1])
 
-
 kontakt = {
 'jmeno': 'Jana' ,
 'prijmeni' : 'Faltova' ,
@@ -19,7 +18,6 @@ kontakt = {
 }
 
 print(kontakt['prijmeni'], ', ulice ', kontakt['adresa']['ulice'])
-
 
 bludiste = {
     (1, 1): 'X',
@@ -35,33 +33,33 @@ for i in range(ndim):
             print('.', end=" ")
     print()
 
-# Prevedte si abecedu do tvaru s vyuzitim prace s retezci: mors = {'A': '.-', ATD.}
+# Prevedte si abecedu na slovnik s vyuzitim prace s retezci
+# Znak konce radku je '\n'
 abeceda = """
 A .−
 B −...
-C −. − .
+C −.−.
 D −..
 E .
-F .. − .
-G −− .
+F ..−.
+G −−.
 H ....
 I ..
-J . − −−
+J .−−−
 K −.−
-L . − ..
+L .−..
 M −−
 N −.
 O −−−
-P . − −.
-Q − − .−
-R . − .
+P .−−.
+Q −−.−
+R .−.
 S ...
 T −
 U ..−
 V ...−
-W . −−
+W .−−
 X −..−
-Y −. − −
-Z − − ..
+Y −.−−
+Z −−..
 """
-
