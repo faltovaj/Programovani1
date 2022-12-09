@@ -4,7 +4,8 @@ predvolba = {
     3: 'babicka',
     4: 'Romca'
 }
-print(predvolba[1][1])
+#print(predvolba[2])
+#print(predvolba[1][1])
 
 kontakt = {
 'jmeno': 'Jana' ,
@@ -16,8 +17,7 @@ kontakt = {
 'psc' : 59103,
 }
 }
-
-print(kontakt['prijmeni'], ', ulice ', kontakt['adresa']['ulice'])
+#print(kontakt['prijmeni'], kontakt['adresa'], kontakt['adresa']['mesto'])
 
 bludiste = {
     (1, 1): 'X',
@@ -25,13 +25,15 @@ bludiste = {
     (8, 8): 'X'
 }
 ndim = 10
+"""
 for i in range(ndim):
     for j in range(ndim):
-        if (i,j) in bludiste:
-            print(bludiste[(i,j)], end=" ")
+        if (i, j) in bludiste:
+            print(bludiste[(i, j)], end = " ")
         else:
-            print('.', end=" ")
+            print(".", end = " ")
     print()
+"""
 
 # Prevedte si abecedu na slovnik s vyuzitim prace s retezci
 # Znak konce radku je '\n'
